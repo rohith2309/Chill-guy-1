@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +28,21 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  text-decoration: double;
+  text-decoration-line: underline;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+input[type="text"]{
+  background-color:black;
+  border-radius: 10%;
+  max-height: 25px;
+}
+input[type="color"]{
+  max-width: 150px;
+  padding: 0px;
+  box-shadow: #494ea0;
+  margin: 4px;
 }
 
 h1 {
@@ -42,12 +57,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #000000;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 3px;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #494ea0;
 }
 button:focus,
 button:focus-visible {
